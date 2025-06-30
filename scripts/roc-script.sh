@@ -69,6 +69,7 @@ UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
 UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
+UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
@@ -83,6 +84,18 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "ddns-go" "sirpdboy/luci-app-ddns-go" "main"
 
+UPDATE_PACKAGE "istore" "linkease/istore" "main"
+UPDATE_PACKAGE "nas" "linkease/nas-packages" "master"
+UPDATE_PACKAGE "nas_luci" "linkease/nas-packages-luci" "main"
+#UPDATE_PACKAGE "fileassistant" "clutchJoe/luci-app-fileassistant" "master"
+UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"
+
+UPDATE_PACKAGE "dae" "sbwml/luci-app-dae" "main"
+UPDATE_PACKAGE "v2ray-geodata" "sbwml/v2ray-geodata" "master"
+
+#UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
+## follow from https://github.com/QiuSimons/luci-app-daed
+#mkdir -p libcron && wget -O libcron/Makefile https://raw.githubusercontent.com/immortalwrt/packages/refs/heads/master/libs/libcron/Makefile
 
 #更新软件包版本
 UPDATE_VERSION() {
